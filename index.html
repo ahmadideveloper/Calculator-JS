@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/style/global.css">
+</head>
+
+<body>
+    <audio id="audio" src="assets/audio/button.mp3"></audio>
+    <main class="container-fluid">
+        <div class="row">
+            <section class="calc">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <h2 class="w-100 text-center">casio</h2>
+                    <p>electronic calculator</p>
+                </div>
+
+                <div>
+                    <div id="screen">0</div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <span onclick="calculator(this.innerText)">÷</span>
+                        <span onclick="calculator(this.innerText)">x</span>
+                        <span onclick="calculator(this.innerText)">-</span>
+                        <span onclick="calculator(this.innerText)">+</span>
+                    </div>
+                    <div>
+                        <span onclick="calculator(this.innerText)">7</span>
+                        <span onclick="calculator(this.innerText)">8</span>
+                        <span onclick="calculator(this.innerText)">9</span>
+                        <span onclick="calculator(this.innerText)">4</span>
+                        <span onclick="calculator(this.innerText)">5</span>
+                        <span onclick="calculator(this.innerText)">6</span>
+                        <span onclick="calculator(this.innerText)">1</span>
+                        <span onclick="calculator(this.innerText)">2</span>
+                        <span onclick="calculator(this.innerText)">3</span>
+                        <span onclick="calculator(this.innerText)">0</span>
+                        <span onclick="calculator(this.innerText)">.</span>
+                        <span onclick="calculator(this.innerText)">=</span>
+                    </div>
+                    <div>
+                        <span onclick="Clear()">C</span>
+                        <span onclick="Off()">OFF</span>
+                        <span onclick="On()">ON</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+<script src="assets/js/master.js"> </script>
+
+</html>
